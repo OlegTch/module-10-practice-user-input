@@ -1,1 +1,52 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="js-feedback-form">
+      <!-- <label for="name-ID">USER NAME</label>
+      <input type="name" name="name" id="name-ID" /> -->
+      <label>
+        <input
+          class="js-feedback-name js-input"
+          type="name"
+          name="name"
+          placeholder="Введіть ім'я"
+        />USER NAME</label
+      >
+      <br />
+      <label
+        ><input
+          class="js-feedback-mail js-input"
+          type="mail"
+          name="mail"
+          placeholder="Введіть e-mail"
+        />USER E-MAIL</label
+      >
+      <br />
+      <label>
+        <textarea
+          class="js-feedback-text js-input"
+          type="text"
+          name="text"
+          placeholder="Введіть текст"
+        ></textarea>
+        Message
+      </label>
+      <br />
+      <button type="submit">SEND</button>
+    </form>
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
